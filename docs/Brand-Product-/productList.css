@@ -96,6 +96,9 @@ h1 {
     font-weight: 700;
     line-height: 1.2;
 }
+.itemsGroup a {
+    color: var(--neutral-900);
+}
 
 /* Pagination */
 .pagination {

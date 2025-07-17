@@ -1,0 +1,305 @@
+/* Nav */
+.nav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.nav a {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: var(--neutral-900);
+}
+
+.nav img {
+    margin-right: 48px;
+}
+
+.nav ul {
+    margin-right: auto;
+    gap: 40px;
+}
+
+/* Main */
+.main {
+    padding-top: 64px;
+    margin-bottom: 40px;
+}
+
+/* Main Product-images */
+.detailMainRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.detailMainImagesRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -4px;
+    margin-left: -4px;
+}
+
+.product-images img {
+    width: calc(100% / 12 * 6);
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-bottom: 8px;
+}
+
+/* Main Product-info */
+/* Main Product-info Breadcrumb-navigation */
+.product-info ol {
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.product-info ol li:nth-child(odd) {
+    color: var(--neutral-600);
+}
+
+.product-info ol li:nth-child(even) {
+    color: var(--neutral-300);
+}
+
+.product-info ol li:last-child {
+    color: var(--neutral-900);
+}
+
+/* Main Product-info Conentent */
+.content {
+    margin-bottom: 32px;
+}
+.product-info h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.product-info .content span {
+    color: var(--primary-400);
+    margin-right: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.product-info del {
+    color: var(--neutral-500);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.product-info .content p:nth-of-type(2) {
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+/* Main Product-info colorAndSize */
+/* Main Product-info colorAndSize Color */
+.colorAndSize .color {
+    margin-bottom: 32px;
+}
+
+.colorAndSize .color p:first-child {
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.colorAndSize .color ul {
+    text-align: center;
+    gap: 8px;
+}
+
+.color ul p {
+    color: var(--neutral-600);
+}
+
+.colorAndSize .color img {
+    width: 64px;
+    height: auto;
+    background-color: #f1f3f7;
+    margin-bottom: 4px;
+}
+
+/* Main Product-info colorAndSize Size */
+.colorAndSize .size {
+    margin-bottom: 48px;
+}
+
+.colorAndSize .size p:first-child {
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+.colorAndSize .size .btnGroup {
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.colorAndSize .size .btn {
+    width: 160px;
+    padding: 12px 24px;
+    border: 1px solid var(--neutral-300);
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.colorAndSize .size .active,
+.colorAndSize .size .btn:hover {
+    border-color: var(--neutral-900);
+}
+
+.colorAndSize  .btn:disabled:hover {
+    cursor: auto;
+  border: 1px solid var(--neutral-300);
+}
+
+.colorAndSize .size p:last-child {
+    color: var(--danger-300);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Main Product-info CollectAndTryon */
+.collectAndTryon {
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.collectAndTryon .bigBtn {
+    border: none;
+    width: 50%;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.collectAndTryon .btn-bright {
+    background-color: transparent;
+    border: 1px solid var(--neutral-900);
+}
+
+.collectAndTryon .btn-dark {
+    background-color: var(--neutral-900);
+    color: var(--neutral-White);
+}
+
+.collectAndTryon .bi {
+    margin-right: 8px;
+}
+
+/* Main Product-info Postscript */
+.postscript section {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--neutral-300);
+}
+.postscript h4 {
+    margin-bottom: 4px;
+}
+
+.postscript p {
+    font-weight: 400;
+    color: var(--neutral-600);
+}
+
+/* Main Banner 你可能也喜歡...*/
+.banner {
+    padding: 48px 0;
+}
+
+.banner ul {
+    gap: 24px;
+}
+
+.banner li {
+    width: 25%;
+}
+
+.banner h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.banner .anotherProduct img {
+    background-color: #f1f3f7;
+    margin-bottom: 12px;
+}
+
+.banner .anotherProduct h5 {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+/* Banner 優惠 */
+.discount {
+    padding: 24px 0;
+    background-color: var(--primary-200);
+}
+
+.discount h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-right: 24px;
+}
+
+.discount .discountBtn {
+    border: none;
+    padding: 12px 24px;
+    background-color: var(--neutral-900);
+    color: var(--neutral-White);
+    border-radius: 4px;
+    border-color: var(--neutral-900);
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    padding: 64px 0;
+    background-color: var(--neutral-100);
+}
+
+.footer ul {
+  gap: 40px;
+  margin-bottom: 24px;
+}
+
+.footer a {
+  color: var(--neutral-900)
+}
+
+.copyright {
+  padding-top: 32px;
+  margin-top: 24px;
+  text-align: center;
+  border-top: 1px solid var(--neutral-300);
+}
+
+.copyright p {
+  font-weight: 400;
+  color: var(--neutral-600);
+}
+
+.copyright p:first-child {
+  margin-bottom: 4px;
+}
